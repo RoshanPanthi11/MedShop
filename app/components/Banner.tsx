@@ -15,7 +15,7 @@ const banners: BannerItem[] = [
   { id: 3, imageUrl: '/images/banner3.jpeg' },
 ];
 
-export default function Banner(): JSX.Element {
+export default function Banner() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
